@@ -1,0 +1,9 @@
+requests
+pandas
+beautifulsoup4
+streamlit
+gunicorn
+Ipython
+datetime
+pymongo
+streamlit_autorefresh
