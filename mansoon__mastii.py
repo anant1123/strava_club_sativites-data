@@ -14,7 +14,7 @@ client_secret = ''
 initial_refresh_token = ''  # Replace with your initial refresh token
 
 # Club ID
-club_id = #you club id cleck on share button at club in the chrome then club id shown in the embedded url
+club_id = #present on your iframe url of the club link was only show when you open your account in web browser and click on share button at the club
 
 # MongoDB connection
 mongo_client = MongoClient('your mongodb data url with id pasasword', serverSelectionTimeoutMS=60000)
@@ -256,7 +256,7 @@ def fetch_and_parse_activities(iframe_url):
     return parsed_activities
 
 # URL from the iframe src attribute
-iframe_url = 'https://www.strava.com/clubs/1272495/latest-rides/a9ebd92db8660ca5181352d5365a54abe9a534db?show_rides=true'
+iframe_url = '' #your iframe url of the club link was only show when you open your account in web browser and click on share button at the club
 
 # Fetch and parse activities
 parsed_activities = fetch_and_parse_activities(iframe_url)
