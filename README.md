@@ -1,0 +1,1 @@
+This app takes the data from the strava 'CLub Activities API' and from the web scraping  then merge the data and show in the leaderboared. I provide you link of my project for refrence  "https://mansoon-masti-by-kfr.streamlit.app/:"
