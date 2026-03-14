@@ -7,3 +7,4 @@ Ipython
 datetime
 pymongo
 streamlit_autorefresh
+altair==4.2.2
